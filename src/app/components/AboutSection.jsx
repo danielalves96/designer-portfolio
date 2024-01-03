@@ -52,7 +52,7 @@ const AboutSection = () => {
         <Image src="/images/about-image.png" width={500} height={500} className="hidden md:block" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Sobre mim</h2>
-          <p className="text-base lg:text-lg">
+          <p className="text-base lg:text-lg text-justify">
             Olá, sou Paola Oliveira, natural de Curitiba, e embora seja Médica Veterinária não praticante, trago uma trajetória fascinante. Após realizar o sonho de concluir minha formação, atuei por um período na área, porém, deparei-me com a ausência de perspectivas e a falta de qualidade de vida. Foi durante essa jornada na veterinária que tive meu primeiro contato com ferramentas de design para a elaboração de documentação. Influenciada pelo meu esposo (Desenvolvedor), atualmente, dedico-me com entusiasmo ao universo do UI/UX Design. Essa transição revelou-se uma experiência incrivelmente interessante em minha vida.
           </p>
           <div className="flex flex-row justify-start mt-8">
