@@ -17,9 +17,8 @@ export async function POST(req, res) {
           <h3>
             Você recebeu uma nova mensagem de <strong>{email}</strong>{' '}
           </h3>
-          <br></br>
-          <h4>Mensagem recebida:</h4>
-          <h5>{message}</h5>
+          <h3>Mensagem recebida:</h3>
+          <h3>{message}</h3>
         </div>
       ),
     });
