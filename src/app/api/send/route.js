@@ -6,19 +6,21 @@ const fromEmail = process.env.FROM_EMAIL;
 
 export async function POST(req, res) {
   const { email, subject, message } = await req.json();
-  console.log(email, subject, message);
   try {
     const data = await resend.emails.send({
       from: fromEmail,
       to: ['paolatoliveira@gmail.com'],
       subject: `Contato site | ${subject}`,
       react: (
-        <>
+        <div>
           <h1>{subject}</h1>
-          <p>Obrigado por entrar em contato!</p>
-          <p>Mensagem enviada:</p>
-          <p>{message}</p>
-        </>
+          <h3>
+            Você recebeu uma nova mensagem de <strong>{email}</strong>{' '}
+          </h3>
+          <br></br>
+          <h4>Mensagem recebida:</h4>
+          <h5>{message}</h5>
+        </div>
       ),
     });
     return NextResponse.json(data);
