@@ -15,16 +15,16 @@ const projectsData = [
     dribbbleUrl: "https://dribbble.com/shots/23376698-Website-Portf-lio",
     behanceUrl: "https://www.behance.net/gallery/188157771/Website-Portfolio"
   },
-  // {
-  //   id: 2,
-  //   title: "Potography Portfolio Website",
-  //   description: "Project 2 description",
-  //   image: "/images/projects/2.png",
-  //   tag: ["Todos", "Web"],
-  //   figmaUrl: "/",
-  //   dribbbleUrl: "/",
-  //   behanceUrl: "/"
-  // },
+  {
+    id: 2,
+    title: "SHEBANK - Bank App",
+    description: "App de banco pensado para mulheres.",
+    image: "/images/projects/bank_app.jpg",
+    tag: ["Todos", "Mobile"],
+    figmaUrl: "https://www.figma.com/proto/CHp0Qm82EETUZsYaSXT6Sr/SHEBANK?embed_host=share&kind=proto&node-id=12-494&page-id=0%3A1&scaling=scale-down&t=4eDIsBiZRXMLhGpj-1&type=design&viewport=1443%2C809%2C0.7&hide-ui=1",
+    dribbbleUrl: "https://dribbble.com/shots/23383600-SHEBANK-Bank-App",
+    behanceUrl: "https://www.behance.net/gallery/188233413/SHEBANK-Bank-App"
+  },
   // {
   //   id: 3,
   //   title: "E-commerce Application",
