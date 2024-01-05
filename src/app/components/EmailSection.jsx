@@ -51,10 +51,10 @@ const EmailSection = () => {
           dar o meu melhor para responder para você!
         </p>
         <div className="socials flex flex-row gap-2 items-center">
-          <Link href="github.com">
+          <Link href="https://www.behance.net/l0la0liveira">
             <ImBehance2 size={38} color="#053EFF" />
           </Link>
-          <Link href="github.com">
+          <Link href="https://dribbble.com/shots/23376698-Website-Portf-lio">
             <FcDribbble size={50} />
           </Link>
           <a href="https://www.linkedin.com/in/paola-tavares-de-oliveira-83823ba1/" target="_blank">

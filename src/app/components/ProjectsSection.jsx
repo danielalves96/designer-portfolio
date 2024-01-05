@@ -7,64 +7,64 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
-    tag: ["Todos", "Web"],
-    figmaUrl: "/",
-    dribbbleUrl: "/",
-    behanceUrl: "/"
+    title: "Website Portfólio",
+    description: "Uma forma prática para reunir todos projetos web e mobile.",
+    image: "/images/projects/portifolio.jpg",
+    tag: ["Todos", "Web", "Mobile"],
+    figmaUrl: "https://www.figma.com/proto/AohAyt1AZHUfphwBUza10e/Website-Portf%C3%B3lio---Mobile?type=design&node-id=1-27&t=pTaZX9V1p6kd7RZg-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3&hide-ui=1",
+    dribbbleUrl: "https://dribbble.com/shots/23376698-Website-Portf-lio",
+    behanceUrl: "https://www.behance.net/gallery/188157771/Website-Portfolio"
   },
-  {
-    id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
-    tag: ["Todos", "Web"],
-    figmaUrl: "/",
-    dribbbleUrl: "/",
-    behanceUrl: "/"
-  },
-  {
-    id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["Todos", "Web"],
-    figmaUrl: "/",
-    dribbbleUrl: "/",
-    behanceUrl: "/"
-  },
-  {
-    id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["Todos", "Mobile"],
-    figmaUrl: "/",
-    dribbbleUrl: "/",
-    behanceUrl: "/"
-  },
-  {
-    id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["Todos", "Web"],
-    figmaUrl: "/",
-    dribbbleUrl: "/",
-    behanceUrl: "/"
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["Todos", "Web"],
-    figmaUrl: "/",
-    dribbbleUrl: "/",
-    behanceUrl: "/"
-  },
+  // {
+  //   id: 2,
+  //   title: "Potography Portfolio Website",
+  //   description: "Project 2 description",
+  //   image: "/images/projects/2.png",
+  //   tag: ["Todos", "Web"],
+  //   figmaUrl: "/",
+  //   dribbbleUrl: "/",
+  //   behanceUrl: "/"
+  // },
+  // {
+  //   id: 3,
+  //   title: "E-commerce Application",
+  //   description: "Project 3 description",
+  //   image: "/images/projects/3.png",
+  //   tag: ["Todos", "Web"],
+  //   figmaUrl: "/",
+  //   dribbbleUrl: "/",
+  //   behanceUrl: "/"
+  // },
+  // {
+  //   id: 4,
+  //   title: "Food Ordering Application",
+  //   description: "Project 4 description",
+  //   image: "/images/projects/4.png",
+  //   tag: ["Todos", "Mobile"],
+  //   figmaUrl: "/",
+  //   dribbbleUrl: "/",
+  //   behanceUrl: "/"
+  // },
+  // {
+  //   id: 5,
+  //   title: "React Firebase Template",
+  //   description: "Authentication and CRUD operations",
+  //   image: "/images/projects/5.png",
+  //   tag: ["Todos", "Web"],
+  //   figmaUrl: "/",
+  //   dribbbleUrl: "/",
+  //   behanceUrl: "/"
+  // },
+  // {
+  //   id: 6,
+  //   title: "Full-stack Roadmap",
+  //   description: "Project 5 description",
+  //   image: "/images/projects/6.png",
+  //   tag: ["Todos", "Web"],
+  //   figmaUrl: "/",
+  //   dribbbleUrl: "/",
+  //   behanceUrl: "/"
+  // },
 ];
 
 const ProjectsSection = () => {
