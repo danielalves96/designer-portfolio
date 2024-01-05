@@ -11,7 +11,7 @@ const projectsData = [
     description: "Uma forma prática para reunir todos projetos web e mobile.",
     image: "/images/projects/portifolio.jpg",
     tag: ["Todos", "Web", "Mobile"],
-    figmaUrl: "https://www.figma.com/proto/AohAyt1AZHUfphwBUza10e/Website-Portf%C3%B3lio---Mobile?type=design&node-id=1-27&t=pTaZX9V1p6kd7RZg-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3&hide-ui=1",
+    figmaUrl: "https://www.figma.com/proto/AohAyt1AZHUfphwBUza10e/Website-Portf%C3%B3lio---Mobile?type=design&node-id=1-27&t=pTaZX9V1p6kd7RZg-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3&hide-ui=0",
     dribbbleUrl: "https://dribbble.com/shots/23376698-Website-Portf-lio",
     behanceUrl: "https://www.behance.net/gallery/188157771/Website-Portfolio"
   },
@@ -21,7 +21,7 @@ const projectsData = [
     description: "App de banco pensado para mulheres.",
     image: "/images/projects/bank_app.jpg",
     tag: ["Todos", "Mobile"],
-    figmaUrl: "https://www.figma.com/proto/CHp0Qm82EETUZsYaSXT6Sr/SHEBANK?embed_host=share&kind=proto&node-id=12-494&page-id=0%3A1&scaling=scale-down&t=4eDIsBiZRXMLhGpj-1&type=design&viewport=1443%2C809%2C0.7&hide-ui=1",
+    figmaUrl: "https://www.figma.com/proto/CHp0Qm82EETUZsYaSXT6Sr/SHEBANK?embed_host=share&kind=proto&node-id=12-494&page-id=0%3A1&scaling=scale-down&t=4eDIsBiZRXMLhGpj-1&type=design&viewport=1443%2C809%2C0.7&hide-ui=0",
     dribbbleUrl: "https://dribbble.com/shots/23383600-SHEBANK-Bank-App",
     behanceUrl: "https://www.behance.net/gallery/188233413/SHEBANK-Bank-App"
   },
