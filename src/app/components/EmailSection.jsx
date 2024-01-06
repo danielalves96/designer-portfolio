@@ -49,11 +49,11 @@ const EmailSection = () => {
           aberta. Se você tiver alguma dúvida ou apenas quiser dizer oi, eu vou
           dar o meu melhor para responder para você!
         </p>
-        <div className="socials flex flex-row gap-2 items-center">
+        <div className="socials flex flex-row gap-2 items-center" target="_blank">
           <Link href="https://www.behance.net/l0la0liveira">
             <ImBehance2 size={38} color="#053EFF" />
           </Link>
-          <Link href="https://dribbble.com/l0la0liveira">
+          <Link href="https://dribbble.com/l0la0liveira" target="_blank">
             <FcDribbble size={50} />
           </Link>
           <a href="https://www.linkedin.com/in/paola-tavares-de-oliveira-83823ba1/" target="_blank">
