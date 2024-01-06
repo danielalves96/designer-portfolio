@@ -53,7 +53,7 @@ const EmailSection = () => {
           <Link href="https://www.behance.net/l0la0liveira">
             <ImBehance2 size={38} color="#053EFF" />
           </Link>
-          <Link href="https://dribbble.com/shots/23376698-Website-Portf-lio">
+          <Link href="https://dribbble.com/l0la0liveira">
             <FcDribbble size={50} />
           </Link>
           <a href="https://www.linkedin.com/in/paola-tavares-de-oliveira-83823ba1/" target="_blank">
