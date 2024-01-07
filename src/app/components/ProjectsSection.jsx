@@ -30,7 +30,7 @@ const projectsData = [
     title: "Link In Bio - Web & Mobile",
     description: "App para cadastrar links.",
     image: "/images/projects/linkApp.jpg",
-    tag: ["Todos", "Web", "mobile"],
+    tag: ["Todos", "Web", "Mobile"],
     figmaUrl: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FozhyV3IXT4wcfcUXrKsJok%2FLink-In-Bio-App-e-Desktop%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D3-887%26viewport%3D954%252C202%252C0.25%26t%3D4GRnwDw4NYnj7lfg-1%26scaling%3Dscale-down%26mode%3Ddesign",
     dribbbleUrl: "https://dribbble.com/shots/23389012-Link-in-Bio-Mobile-Web-APP",
     behanceUrl: "https://www.behance.net/gallery/188308869/Link-in-Bio-Mobile-Web-APP"
