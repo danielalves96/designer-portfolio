@@ -49,26 +49,17 @@ const projectsData = [
     dribbbleUrl: "https://dribbble.com/shots/23416864-WAVE-Mockups-Surf-Store-APP",
     behanceUrl: "https://www.behance.net/gallery/188661609/WAVE-Mockups-%28Surf-Store-APP%29"
   },
-  // {
-  //   id: 5,
-  //   title: "React Firebase Template",
-  //   description: "Authentication and CRUD operations",
-  //   image: "/images/projects/5.png",
-  //   tag: ["Todos", "Web"],
-  //   figmaMobile: "/",
-  //   dribbbleUrl: "/",
-  //   behanceUrl: "/"
-  // },
-  // {
-  //   id: 6,
-  //   title: "Full-stack Roadmap",
-  //   description: "Project 5 description",
-  //   image: "/images/projects/6.png",
-  //   tag: ["Todos", "Web"],
-  //   figmaMobile: "/",
-  //   dribbbleUrl: "/",
-  //   behanceUrl: "/"
-  // },
+  {
+    id: 5,
+    title: "Website Institucional | Valentini 877",
+    description: "Landing page para uma transportadora.",
+    image: "/images/projects/valentini.png",
+    tag: ["Todos", "Web"],
+    figmaMobile: "",
+    figmaDesktop: '',
+    dribbbleUrl: "https://dribbble.com/shots/23417910-Website-Institucional-Valentini-877?utm_source=Clipboard_Shot&utm_campaign=l0la0liveira&utm_content=Website%20Institucional%20%7C%20Valentini%20877&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=l0la0liveira&utm_content=Website%20Institucional%20%7C%20Valentini%20877&utm_medium=Social_Share",
+    behanceUrl: "https://www.behance.net/gallery/188670707/Website-Institucional-Valentini-877"
+  },
 ];
 
 const ProjectsSection = () => {
