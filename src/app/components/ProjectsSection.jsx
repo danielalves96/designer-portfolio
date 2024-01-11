@@ -38,16 +38,17 @@ const projectsData = [
     dribbbleUrl: "https://dribbble.com/shots/23389012-Link-in-Bio-Mobile-Web-APP",
     behanceUrl: "https://www.behance.net/gallery/188308869/Link-in-Bio-Mobile-Web-APP"
   },
-  // {
-  //   id: 4,
-  //   title: "Food Ordering Application",
-  //   description: "Project 4 description",
-  //   image: "/images/projects/4.png",
-  //   tag: ["Todos", "Mobile"],
-  //   figmaMobile: "/",
-  //   dribbbleUrl: "/",
-  //   behanceUrl: "/"
-  // },
+  {
+    id: 4,
+    title: "WAVE - SURF STORE APP",
+    description: "Projeto de aplicativo de e-commerce para surfistas.",
+    image: "/images/projects/surf.png",
+    tag: ["Todos", "Mobile"],
+    figmaMobile: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FhiBzC0BNogPSYVEtjacp1w%2FProjeto-Wave%3Fpage-id%3D1%253A4%26type%3Ddesign%26node-id%3D9-444%26viewport%3D280%252C427%252C0.48%26t%3Dj6nggM13OYT9EbYo-1%26scaling%3Dscale-down%26starting-point-node-id%3D9%253A15%26show-proto-sidebar%3D1%26mode%3Ddesign",
+    figmaDesktop: '',
+    dribbbleUrl: "https://dribbble.com/shots/23416864-WAVE-Mockups-Surf-Store-APP",
+    behanceUrl: "https://www.behance.net/gallery/188661609/WAVE-Mockups-%28Surf-Store-APP%29"
+  },
   // {
   //   id: 5,
   //   title: "React Firebase Template",
