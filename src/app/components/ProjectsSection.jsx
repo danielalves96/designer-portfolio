@@ -12,7 +12,7 @@ const projectsData = [
     image: "/images/projects/portifolio.jpg",
     tag: ["Todos", "Web", "Mobile"],
     figmaMobile: "https://www.figma.com/proto/AohAyt1AZHUfphwBUza10e/Website-Portf%C3%B3lio---Mobile?type=design&node-id=1-27&t=pTaZX9V1p6kd7RZg-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3&hide-ui=0",
-    figmaDesktop: '',
+    figmaDesktop: 'https://www.figma.com/proto/z2fEWnYItMuLoE1oq44aKF/Design-Portif%C3%B3lio?type=design&node-id=0-3&t=nzonjtCg1tjCzbJX-1&scaling=scale-down&page-id=0%3A1&mode=design',
     dribbbleUrl: "https://dribbble.com/shots/23376698-Website-Portf-lio",
     behanceUrl: "https://www.behance.net/gallery/188157771/Website-Portfolio"
   },
