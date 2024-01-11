@@ -11,7 +11,8 @@ const projectsData = [
     description: "Uma forma prática para reunir todos projetos web e mobile.",
     image: "/images/projects/portifolio.jpg",
     tag: ["Todos", "Web", "Mobile"],
-    figmaUrl: "https://www.figma.com/proto/AohAyt1AZHUfphwBUza10e/Website-Portf%C3%B3lio---Mobile?type=design&node-id=1-27&t=pTaZX9V1p6kd7RZg-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3&hide-ui=0",
+    figmaMobile: "https://www.figma.com/proto/AohAyt1AZHUfphwBUza10e/Website-Portf%C3%B3lio---Mobile?type=design&node-id=1-27&t=pTaZX9V1p6kd7RZg-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3&hide-ui=0",
+    figmaDesktop: '',
     dribbbleUrl: "https://dribbble.com/shots/23376698-Website-Portf-lio",
     behanceUrl: "https://www.behance.net/gallery/188157771/Website-Portfolio"
   },
@@ -21,7 +22,8 @@ const projectsData = [
     description: "App de banco pensado para mulheres.",
     image: "/images/projects/bank_app.jpg",
     tag: ["Todos", "Mobile"],
-    figmaUrl: "https://www.figma.com/proto/CHp0Qm82EETUZsYaSXT6Sr/SHEBANK?embed_host=share&kind=proto&node-id=12-494&page-id=0%3A1&scaling=scale-down&t=4eDIsBiZRXMLhGpj-1&type=design&viewport=1443%2C809%2C0.7&hide-ui=0",
+    figmaMobile: "https://www.figma.com/proto/CHp0Qm82EETUZsYaSXT6Sr/SHEBANK?embed_host=share&kind=proto&node-id=12-494&page-id=0%3A1&scaling=scale-down&t=4eDIsBiZRXMLhGpj-1&type=design&viewport=1443%2C809%2C0.7&hide-ui=0",
+    figmaDesktop: '',
     dribbbleUrl: "https://dribbble.com/shots/23383600-SHEBANK-Bank-App",
     behanceUrl: "https://www.behance.net/gallery/188233413/SHEBANK-Bank-App"
   },
@@ -31,7 +33,8 @@ const projectsData = [
     description: "App para cadastrar links.",
     image: "/images/projects/linkApp.jpg",
     tag: ["Todos", "Web", "Mobile"],
-    figmaUrl: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FozhyV3IXT4wcfcUXrKsJok%2FLink-In-Bio-App-e-Desktop%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D3-887%26viewport%3D954%252C202%252C0.25%26t%3D4GRnwDw4NYnj7lfg-1%26scaling%3Dscale-down%26mode%3Ddesign",
+    figmaMobile: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FozhyV3IXT4wcfcUXrKsJok%2FLink-In-Bio-App-e-Desktop%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D3-887%26viewport%3D954%252C202%252C0.25%26t%3D4GRnwDw4NYnj7lfg-1%26scaling%3Dscale-down%26mode%3Ddesign",
+    figmaDesktop: 'https://www.figma.com/proto/ozhyV3IXT4wcfcUXrKsJok/Link-In-Bio-App-e-Desktop?embed_host=share&kind=proto&node-id=8-642&page-id=8%3A638&scaling=scale-down&t=2Z5BL9tbIzdZ6XND-1&type=design&viewport=866%2C564%2C0.43',
     dribbbleUrl: "https://dribbble.com/shots/23389012-Link-in-Bio-Mobile-Web-APP",
     behanceUrl: "https://www.behance.net/gallery/188308869/Link-in-Bio-Mobile-Web-APP"
   },
@@ -41,7 +44,7 @@ const projectsData = [
   //   description: "Project 4 description",
   //   image: "/images/projects/4.png",
   //   tag: ["Todos", "Mobile"],
-  //   figmaUrl: "/",
+  //   figmaMobile: "/",
   //   dribbbleUrl: "/",
   //   behanceUrl: "/"
   // },
@@ -51,7 +54,7 @@ const projectsData = [
   //   description: "Authentication and CRUD operations",
   //   image: "/images/projects/5.png",
   //   tag: ["Todos", "Web"],
-  //   figmaUrl: "/",
+  //   figmaMobile: "/",
   //   dribbbleUrl: "/",
   //   behanceUrl: "/"
   // },
@@ -61,7 +64,7 @@ const projectsData = [
   //   description: "Project 5 description",
   //   image: "/images/projects/6.png",
   //   tag: ["Todos", "Web"],
-  //   figmaUrl: "/",
+  //   figmaMobile: "/",
   //   dribbbleUrl: "/",
   //   behanceUrl: "/"
   // },
@@ -121,7 +124,8 @@ const ProjectsSection = () => {
               title={project.title}
               description={project.description}
               imgUrl={project.image}
-              figmaUrl={project.figmaUrl}
+              figmaMobile={project.figmaMobile}
+              figmaDesktop={project.figmaDesktop}
               dribbbleUrl={project.dribbbleUrl}
               behanceUrl={project.behanceUrl}
             />
