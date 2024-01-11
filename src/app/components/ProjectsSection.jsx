@@ -44,7 +44,7 @@ const projectsData = [
     description: "Projeto de aplicativo de e-commerce para surfistas.",
     image: "/images/projects/surf.png",
     tag: ["Todos", "Mobile"],
-    figmaMobile: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FhiBzC0BNogPSYVEtjacp1w%2FProjeto-Wave%3Fpage-id%3D1%253A4%26type%3Ddesign%26node-id%3D9-444%26viewport%3D280%252C427%252C0.48%26t%3Dj6nggM13OYT9EbYo-1%26scaling%3Dscale-down%26starting-point-node-id%3D9%253A15%26show-proto-sidebar%3D1%26mode%3Ddesign",
+    figmaMobile: "https://www.figma.com/proto/hiBzC0BNogPSYVEtjacp1w/Projeto-Wave?embed_host=share&kind=proto&node-id=9-444&page-id=1%3A4&scaling=scale-down&starting-point-node-id=9%3A15&t=j6nggM13OYT9EbYo-1&type=design&viewport=280%2C427%2C0.48",
     figmaDesktop: '',
     dribbbleUrl: "https://dribbble.com/shots/23416864-WAVE-Mockups-Surf-Store-APP",
     behanceUrl: "https://www.behance.net/gallery/188661609/WAVE-Mockups-%28Surf-Store-APP%29"
