@@ -56,7 +56,7 @@ const projectsData = [
     image: "/images/projects/valentini.png",
     tag: ["Todos", "Web"],
     figmaMobile: "",
-    figmaDesktop: '',
+    figmaDesktop: 'https://www.figma.com/proto/cYNfOzFT4yh8SIghSjhPYP/Transportadora-Valentini?type=design&node-id=2-6&t=hc7NqgVkMJX5RFzf-1&scaling=scale-down&page-id=0%3A1',
     dribbbleUrl: "https://dribbble.com/shots/23417910-Website-Institucional-Valentini-877?utm_source=Clipboard_Shot&utm_campaign=l0la0liveira&utm_content=Website%20Institucional%20%7C%20Valentini%20877&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=l0la0liveira&utm_content=Website%20Institucional%20%7C%20Valentini%20877&utm_medium=Social_Share",
     behanceUrl: "https://www.behance.net/gallery/188670707/Website-Institucional-Valentini-877"
   },
