@@ -32,6 +32,10 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>PRO FIGMA | UI DESIGN com Figma do Zero ao especialista</li>
         <li>Figma | Cubos Acabemy</li>
+        <li>Design UX/UI | Cubos Acabemy</li>
+        <li>Design System | Definindo Estilos e Tokens</li>
+        <li>Design System | Projetando e Construindo Componentes</li>
+        <li>UX Design de A a Z | Tudo sobre experiência do usuário</li>
       </ul>
     ),
   },
