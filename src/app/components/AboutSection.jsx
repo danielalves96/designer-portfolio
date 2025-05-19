@@ -21,7 +21,10 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li> Bacharelado em Medicina Veterinária pela Universidade Tuiuti do Paraná </li>
+        <li>Pós graduação em DEsign de Produto pela faculdade Facprisma</li>
+        <li>
+          Bacharelado em Medicina Veterinária pela Universidade Tuiuti do Paraná{" "}
+        </li>
       </ul>
     ),
   },
@@ -54,11 +57,23 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 xl:gap-16 sm:py-10">
-        <Image src="/images/about-image.png" width={500} height={500} className="hidden md:block" />
+        <Image
+          src="/images/about-image.png"
+          width={500}
+          height={500}
+          className="hidden md:block"
+        />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Sobre mim</h2>
           <p className="text-base lg:text-lg">
-            Olá, sou Paola Oliveira, natural de Curitiba, e embora seja Médica Veterinária não praticante, trago uma trajetória fascinante. Após realizar o sonho de concluir minha formação, atuei por um período na área, porém, deparei-me com a ausência de perspectivas e a falta de qualidade de vida. Foi durante essa jornada na veterinária que tive meu primeiro contato com ferramentas de design para a elaboração de documentação. Influenciada pelo meu esposo (Desenvolvedor), atualmente, dedico-me com entusiasmo ao universo do UI/UX Design. Essa transição revelou-se uma experiência incrivelmente interessante em minha vida.
+            Olá, sou Paola Oliveira, natural de Curitiba, sou Designer de
+            Interface com experiência em criação e manutenção de layouts para
+            produtos digitais, focando em proporcionar uma experiência do
+            usuário intuitiva e envolvente. Capacidade de otimização de
+            usabilidade, colaboração com equipes de desenvolvimento e manutenção
+            de Design Systems, garantindo consistência visual em todos os
+            produtos. Demonstro habilidade no desenvolvimento de conteúdo para
+            mídias sociais, aumentando a visibilidade e o engajamento da marca.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

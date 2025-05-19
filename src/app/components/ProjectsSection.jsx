@@ -62,7 +62,7 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "EOS Suite + Air",
+    title: "EOS Suite - Air",
     description: "Design de plataforma de suite de aplicativos.",
     image: "/images/projects/EOS.png",
     tag: ["Todos", "Web"],
