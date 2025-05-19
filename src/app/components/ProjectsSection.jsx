@@ -60,6 +60,17 @@ const projectsData = [
     dribbbleUrl: "https://dribbble.com/shots/23417910-Website-Institucional-Valentini-877?utm_source=Clipboard_Shot&utm_campaign=l0la0liveira&utm_content=Website%20Institucional%20%7C%20Valentini%20877&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=l0la0liveira&utm_content=Website%20Institucional%20%7C%20Valentini%20877&utm_medium=Social_Share",
     behanceUrl: "https://www.behance.net/gallery/188670707/Website-Institucional-Valentini-877"
   },
+  {
+    id: 6,
+    title: "EOS Suite + Air",
+    description: "Design de plataforma de suite de aplicativos.",
+    image: "/images/projects/EOS.png",
+    tag: ["Todos", "Web"],
+    figmaMobile: "",
+    figmaDesktop: "",
+    dribbbleUrl: "",
+    behanceUrl: "https://www.behance.net/gallery/226070039/AIR-EOS-SUITE"
+  },
 ];
 
 const ProjectsSection = () => {
